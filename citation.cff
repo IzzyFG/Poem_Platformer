@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+authors:
+  - given-names: Isabelle
+    family-names: Friedfeld-Gebaide
+    email: if2266@barnard.edu
+title: "Poem_Platformer"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2023-05-01
+url: "https://github.com/IzzyFG/Poem_Platformer"
+license: MIT
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
