@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 3d6b1d1fd20464510a7cf17ae128e411
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +23,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,21 +33,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 145
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -54,11 +56,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,7 +76,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,17 +88,106 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: TallBuilding_yellow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 512
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc51444e82f5d7b4fa4b33a884df80eb
+      internalID: -1805576398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 02c700696bc98af4e945fa0690ecac33
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TallBuilding_yellow_0: -1805576398
+      TallBuilding_yellow_1: 2023502084
+      TallBuilding_yellow_10: -2063212424
+      TallBuilding_yellow_11: -1776202209
+      TallBuilding_yellow_12: 1809095450
+      TallBuilding_yellow_13: 2142551973
+      TallBuilding_yellow_14: -714056912
+      TallBuilding_yellow_15: 989453207
+      TallBuilding_yellow_16: -1853143120
+      TallBuilding_yellow_17: -1506059809
+      TallBuilding_yellow_18: -679014654
+      TallBuilding_yellow_19: 464419331
+      TallBuilding_yellow_2: 300040986
+      TallBuilding_yellow_20: 605370806
+      TallBuilding_yellow_21: -2143442038
+      TallBuilding_yellow_22: 1006194496
+      TallBuilding_yellow_23: -877393421
+      TallBuilding_yellow_24: -506525353
+      TallBuilding_yellow_25: -88275813
+      TallBuilding_yellow_26: 2129336135
+      TallBuilding_yellow_27: -2027951757
+      TallBuilding_yellow_28: -1274321025
+      TallBuilding_yellow_29: 1482605852
+      TallBuilding_yellow_3: 1318075613
+      TallBuilding_yellow_30: -1644652161
+      TallBuilding_yellow_31: -600554402
+      TallBuilding_yellow_32: 2103119335
+      TallBuilding_yellow_33: -1784726311
+      TallBuilding_yellow_34: -28951235
+      TallBuilding_yellow_35: -1591276491
+      TallBuilding_yellow_36: 2094001055
+      TallBuilding_yellow_37: 1035480180
+      TallBuilding_yellow_38: 1897594437
+      TallBuilding_yellow_39: 1641873805
+      TallBuilding_yellow_4: -824176375
+      TallBuilding_yellow_5: -584953297
+      TallBuilding_yellow_6: 1445058823
+      TallBuilding_yellow_7: -551785805
+      TallBuilding_yellow_8: -1085826054
+      TallBuilding_yellow_9: -1956939070
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

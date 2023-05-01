@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 1b39e21257fc5444e969873386604730
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +23,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,21 +33,21 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 225
+  spritePixelsToUnits: 145
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -54,11 +56,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,7 +76,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,17 +88,1079 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: house_yellow_0
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e605b6155e294034d8d5b394e8c60bb2
+      internalID: -2041978468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 386
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc59e56e11c9cd645b21741f43ea01ab
+      internalID: -123358211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbcf55b5f3cab6e4aad3682a2702baf0
+      internalID: 621641478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26176996065148b41a6f98120126a646
+      internalID: 1861024071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ce422ac3fe1694daeed62a135a682f
+      internalID: -570131210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_5
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 322
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a246e73351e909d4ea29d74b48ad49ac
+      internalID: -1960281179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebfb7b07b5fd144fbc350d69c969617
+      internalID: -749010025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50814ae336408e40ac06edce0b0a9ae
+      internalID: -626838706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c67ba801e8e324baa20bd8e91eb6c4
+      internalID: 98950032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6baf268429434cb43ade0576f55420e7
+      internalID: -1891371444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_10
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc8c793d1753ca46bdeddd4c4568ae3
+      internalID: 445220392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 258
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad12b0719f7dfc4fb8f954be71352b8
+      internalID: -463856497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5b3debfabc01343b8851e5f9809a9a
+      internalID: 1898348605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf08bf2516bbd04da4bc17caad1d46d
+      internalID: 1283480151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c24030923d5954bbcfbf7e455e5fee
+      internalID: -1513764741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a053656598cb8c24db3947940c210946
+      internalID: -53733174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c611672d2727e44c8e605ab0bcbee47
+      internalID: 1188620992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_17
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d134233785e2df147bee204d196547d9
+      internalID: 1771315907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0944c2c6ba3b44093a5819789e0eb8
+      internalID: -600973525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 194
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bc286b7da088e4aa29f613589b4173
+      internalID: -997578998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9decf20b479f876409f4142e3578b6cf
+      internalID: 1382844314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4833f585a6002d488e99d83d8374889
+      internalID: -1144222301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_22
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7387fe512cf7e14bbd53170fa306a25
+      internalID: -28744027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b62e4e9ab596d49bc0a30c2f2e11be
+      internalID: -595758142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3870c25a8e9b5244ca46ec0bda96f23a
+      internalID: -1220340018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad408052ab6e2774380c8d19de430614
+      internalID: -1963601438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_26
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 060580a9cb12d6a4bbf0c9f0e07095bc
+      internalID: 1940251813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_27
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad7a6f32ff57b2478cfeb7e7d95d15e
+      internalID: 1027949112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 130
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b090eb1ad3b5d304ab0f57e7df8ea1eb
+      internalID: 108896397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b7565cfdbbd2242b6e264e16d51d76
+      internalID: -1656955331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7a0defa937d9c41ae8a042a2170fb7
+      internalID: -323915611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50e35ced44c7b746bd11f164b86096f
+      internalID: -1932231509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f45687811e1cf124aa79b72f2bbf46e8
+      internalID: -297313886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_33
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab12cc58576661f40a3a797e0e23839e
+      internalID: 62661215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d293195dbcd9848be98b40aa8c90c6
+      internalID: 961916096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20544b413843d049ae51a04b0c77a5f
+      internalID: -1880905624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054db8cf508ef8c4e9a7006bc7d84fca
+      internalID: 874269759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_37
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 66
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f645b1fcfdc8f8e43ba0cac1f584b20a
+      internalID: -198839124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b812a4ad0a9fff4fa5f1e2f6a7583fb
+      internalID: -1464266827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651b7728e19001d419e60e842759a7df
+      internalID: -664984209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dd4aefbf1860847ae73ed3bfa6cdda
+      internalID: -1200762345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69131d5cb04834c49801618ad56605de
+      internalID: 2023569893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f249d1f836817b4f8fa642798110e67
+      internalID: -2122770251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae0d97e1d4e47f4fa6858542c7acc63
+      internalID: 2019312224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d17aeb982b61eda4492a3cb34bcf080d
+      internalID: -1177782741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf4b30e3a3bf744b97887e433d8f8c0
+      internalID: -1250797239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: house_yellow_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd7c3bd5277c9749a5cd8b6f2fd0839
+      internalID: 1059661443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: f4dcb166523e4e64d82cd7a8ef240d1b
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      house_yellow_0: -2041978468
+      house_yellow_1: -123358211
+      house_yellow_10: 445220392
+      house_yellow_11: -463856497
+      house_yellow_12: 1898348605
+      house_yellow_13: 1283480151
+      house_yellow_14: -1513764741
+      house_yellow_15: -53733174
+      house_yellow_16: 1188620992
+      house_yellow_17: 1771315907
+      house_yellow_18: -600973525
+      house_yellow_19: -997578998
+      house_yellow_2: 621641478
+      house_yellow_20: 1382844314
+      house_yellow_21: -1144222301
+      house_yellow_22: -28744027
+      house_yellow_23: -595758142
+      house_yellow_24: -1220340018
+      house_yellow_25: -1963601438
+      house_yellow_26: 1940251813
+      house_yellow_27: 1027949112
+      house_yellow_28: 108896397
+      house_yellow_29: -1656955331
+      house_yellow_3: 1861024071
+      house_yellow_30: -323915611
+      house_yellow_31: -1932231509
+      house_yellow_32: -297313886
+      house_yellow_33: 62661215
+      house_yellow_34: 961916096
+      house_yellow_35: -1880905624
+      house_yellow_36: 874269759
+      house_yellow_37: -198839124
+      house_yellow_38: -1464266827
+      house_yellow_39: -664984209
+      house_yellow_4: -570131210
+      house_yellow_40: -1200762345
+      house_yellow_41: 2023569893
+      house_yellow_42: -2122770251
+      house_yellow_43: 2019312224
+      house_yellow_44: -1177782741
+      house_yellow_45: -1250797239
+      house_yellow_46: 1059661443
+      house_yellow_5: -1960281179
+      house_yellow_6: -749010025
+      house_yellow_7: -626838706
+      house_yellow_8: 98950032
+      house_yellow_9: -1891371444
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
